@@ -1,4 +1,4 @@
-const cacheName = "v4";
+const cacheName = "v5";
 const cacheassests = ['./',
 './index.html',
 './restaurant.html?id=1',

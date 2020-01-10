@@ -10,7 +10,7 @@ class DBHelper {
   static get DATABASE_URL() {
     const port = 5500 // Change this to your server port
    //return `http://localhost:${port}/data/restaurants.json`;
-    return  `https://github.com/jasmeetkaur1999/restaurant_project.git/${port}/data/restaurants.json`
+    return  `https://github.com/jasmeetkaur1999/restaurant_project/${port}/data/restaurants.json`
   }
 
   /**
@@ -151,7 +151,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`https://github.com/jasmeetkaur1999/restaurant_project.git/master/img/${restaurant.photograph}`)
+    return (`https://github.com/jasmeetkaur1999/restaurant_project/img/${restaurant.photograph}`)
    //return (`/img/${restaurant.photograph}`);
   
   }

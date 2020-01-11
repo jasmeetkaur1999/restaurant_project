@@ -1,0 +1,8 @@
+{
+  "name": "Restaurant Review",
+  "description": "This app helps you to get customers review .",
+  "icons": [{
+    "src": "./img/11.png",
+    "sizes": "512 x 512"
+  }]
+}
